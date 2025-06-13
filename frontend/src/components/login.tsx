@@ -1,4 +1,3 @@
-"use client"
 
 import type React from "react"
 import { useState } from "react"
@@ -50,9 +49,9 @@ export const Login: React.FC<LoginProps> = ({ onViewChange }) => {
         <form onSubmit={handleSubmit}>
           <CardContent className="space-y-4">
             {error && (
-              <Alert variant="destructive">
-                <AlertDescription>{error}</AlertDescription>
-              </Alert>
+                <Alert className="mb-4" variant="destructive">
+                    <AlertDescription> {error} </AlertDescription>
+                </Alert>
             )}
 
             <div className="space-y-2">

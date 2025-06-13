@@ -59,7 +59,7 @@ export const Signup: React.FC<SignupProps> = ({ onViewChange }) => {
 
           <CardContent className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="name">Nom complet</Label>
+              <Label htmlFor="name">Nom</Label>
               <div className="relative">
                 <User className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
                 <Input
